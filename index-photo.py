@@ -12,7 +12,7 @@ from requests_aws4auth import AWS4Auth
 from opensearchpy import OpenSearch, RequestsHttpConnection
 import string
 import random
-
+#filer
 ES_HOST = 'search-photos-ftjcbzutcrr3guaf6cd4upfafy.us-east-1.es.amazonaws.com'
 REGION = 'us-east-1'
 INDEX= 'photos'
