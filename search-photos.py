@@ -14,7 +14,7 @@ INDEX=""
 def get_url(es_index, es_type, keyword):
     url = ES_HOST + '/' + es_index + '/' + es_type + '/_search?q=' + keyword.lower()
     return url
-
+#test123test
 def get_awsauth(region, service):
     cred = boto3.Session().get_credentials()
     return AWS4Auth(cred.access_key,
