@@ -13,6 +13,9 @@ import random
 ES_HOST = 'search-photos-ftjcbzutcrr3guaf6cd4upfafy.us-east-1.es.amazonaws.com'
 REGION = 'us-east-1'
 INDEX= 'photos'
+#Cloud Demo Comment!!!!!!!!!
+
+
 def lambda_handler(event, context):
     print("EVENT --- {}".format(json.dumps(event)))
     print("context: ",context)
